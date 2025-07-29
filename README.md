@@ -8,6 +8,11 @@
   <hr style="width: 80%; margin: 20px auto; border: 0.5px solid #333;" />
 </div>
 
+## 🚀 Quick Start Guide
+
+Watch the deployment tutorial:  
+[![Deployment Tutorial](https://img.shields.io/badge/Watch_Deployment_Tutorial-FF0000?style=for-the-badge&logo=youtube)](https://youtu.be/tLbvRdqxjX0?si=HAPRooxYQARkBfuL)
+
 <table align="center">
   <tr>
     <td align="center" width="100%">
@@ -37,6 +42,16 @@
     </td>
   </tr>
 </table>
+
+---
+
+## 📺 Video Tutorial
+<div align="center">
+  <a href="https://youtu.be/tLbvRdqxjX0?si=HAPRooxYQARkBfuL">
+    <img src="https://img.youtube.com/vi/tLbvRdqxjX0/maxresdefault.jpg" alt="Deployment Tutorial" width="400">
+  </a>
+  <p>Click the image to watch the deployment guide</p>
+</div>
 
 ---
 
