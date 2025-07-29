@@ -1,6 +1,6 @@
 # ☠️ 𝐒𝐀𝐌𝐒𝐔𝐍𝐆_𝐗𝐌𝐃
 
-<h3 align="center">"..YOU WANT IT..GO FOR IT..."</h3>
+<h3 align="center">"..♧𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 𝗠𝗔𝗫𝗧𝗘𝗖𝗛♧..."</h3>
 
 <div align="center">
   <img src="https://files.catbox.moe/ibo6lv.jpg" alt="𝐒𝐀𝐌𝐒𝐔𝐍𝐆_𝐗𝐌𝐃 Banner" width="400" />
@@ -70,7 +70,7 @@ Watch the deployment tutorial:
 ### 🙏 Special Thanks 
 
 <a href="https://github.com/Maxtech254">
-  <img src="https://img.shields.io/badge/Thanks-Terrizev-blueviolet?style=for-the-badge&logo=github" alt="follow to Terrizev" />
+  <img src="https://img.shields.io/badge/Thanks-Terrizev-blueviolet?style=for-the-badge&logo=github" alt="follow to MAXTECH" />
 </a>
 <a href="https://github.com/Maxtech254">
   <img src="https://img.shields.io/badge/Owner-Terrizev-blueviolet?style=for-the-badge&logo=github" alt="follow to MAXTECH" />
