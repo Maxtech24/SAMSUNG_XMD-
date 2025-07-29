@@ -70,8 +70,8 @@ Watch the deployment tutorial:
 ### 🙏 Special Thanks 
 
 <a href="https://github.com/Maxtech254">
-  <img src="https://img.shields.io/badge/Thanks-Terrizev-blueviolet?style=for-the-badge&logo=github" alt="follow to MAXTECH" />
+  <img src="https://img.shields.io/badge/Thanks-MAXTECH-blueviolet?style=for-the-badge&logo=github" alt="follow to MAXTECH" />
 </a>
 <a href="https://github.com/Maxtech254">
-  <img src="https://img.shields.io/badge/Owner-Terrizev-blueviolet?style=for-the-badge&logo=github" alt="follow to MAXTECH" />
+  <img src="https://img.shields.io/badge/Owner-MAXTECH-blueviolet?style=for-the-badge&logo=github" alt="follow to MAXTECH" />
 </a>
