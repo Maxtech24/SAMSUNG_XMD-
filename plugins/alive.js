@@ -20,71 +20,13 @@ function formatTime(seconds) {
 
 async function aliveCommand(sock, chatId, message) {
     try {
-        const start = Date.now();
-        const processingMsg = await sock.sendMessage(chatId, { text: '⚡ Testing speed...' });
-        const end = Date.now();
-        const ping = end - start;
-
-        // Delete the processing message
-        await sock.sendMessage(chatId, { 
-            delete: processingMsg.key 
-        });
-
         const uptimeInSeconds = process.uptime();
         const uptimeFormatted = formatTime(uptimeInSeconds);
         
-        // Get system information
-        const totalMem = (os.totalmem() / (1024 * 1024)).toFixed(2);
-        const freeMem = (os.freemem() / (1024 * 1024)).toFixed(2);
-        const platform = os.platform();
-        const cpuModel = os.cpus()[0].model;
-        const loadAvg = os.loadavg()[0].toFixed(2);
-
-        // Get current time
-        const now = new Date();
-        const timeString = now.toLocaleTimeString('en-US', { hour: '2-digit', minute: '2-digit' });
-
-        const botInfo = `
-╭────── *𝐒𝐀𝐌𝐒𝐔𝐍𝐆_𝐗𝐌𝐃* ──────╮
-│                              
-│ *Uptime*  : ${uptimeFormatted}  
-│ *Ping*    : ${ping}ms  
-│ *Version* : v${settings.version}  
-│ *Status*  : ONLINE  
-│                              
-│ ─── *SYSTEM INFO* ───  
-│ *OS*     : ${platform}  
-│ *Memory* : ${freeMem}MB / ${totalMem}MB  
-│ *CPU*    : ${cpuModel}  
-│ *Load*   : ${loadAvg}  
-│                              
-│ ${timeString.toLowerCase()}  
-╰──────────────────────────────╯`.trim();
-
-        // Send image with caption
-        await sock.sendMessage(chatId, {
-            image: { 
-                url: 'https://files.catbox.moe/ibo6lv.jpg',
-                mimetype: 'image/jpeg'
-            },
-            caption: botInfo,
-            contextInfo: {
-                forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363400964601488@newsletter',
-                    newsletterName: 'S̶A̶M̶S̶U̶N̶G̶_X̶M̶D̶',
-                    serverMessageId: -1
-                }
-            },
-            quoted: message
-        });
-
-        // Send audio as voice note
-        await sock.sendMessage(chatId, {
-            audio: { 
-                url: 'https://files.catbox.moe/vybhok.m4a',
-                mimetype: 'audio/mp4'
-            },
-            ptt: true,
+        const responseText = `⏳ Bot Uptime: ${uptimeFormatted}`;
+        
+        await sock.sendMessage(chatId, { 
+            text: responseText,
             quoted: message
         });
 
