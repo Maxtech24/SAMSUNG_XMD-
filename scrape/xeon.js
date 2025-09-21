@@ -1,3 +1,0 @@
-{
-	"name": "FAMØUS DEV MULTI WHATSAPP BOT "
-}
