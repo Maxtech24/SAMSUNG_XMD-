@@ -1,0 +1,63 @@
+{
+  "name": "SAMSUNG_XMD",
+  "version": "2.0.0",
+  "description": "X",
+  "main": "index.js",
+  "engines": {
+      "node": ">= 20.x",
+      "npm": ">= 10.x"
+   },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "maxtech",
+  "dependencies": {
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@hapi/boom": "^10.0.1",
+        	"@whiskeysockets/baileys":
+   "github:Tennor-modz/MD-Baileys",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^1.6.8",
+    "adm-zip": "^0.5.16",
+    "api-dylux": "^1.8.5",
+    "btch-downloader": "^4.0.15",
+    "cheerio": "^1.0.0-rc.12",
+    "crypto": "^1.0.1",
+    "cfonts": "^3.3.0",
+    "chalk": "^4.1.2", 
+    "didyoumean": "^1.2.2",
+    "pino": "^7.0.5", 
+    "fs":"0.0.1-security",
+    "figlet":"^1.5.0",
+    "fs-extra":"^10.0.0",
+    "moment-timezone":"^0.5.43",
+    "mongoose": "^7.4.5",
+    "human-readable":"^0.2.1",
+    "js-confuser": "^1.7.3",
+    "node-cache": "^5.1.2",
+    "jimp":"latest",
+    "heroku-client": "3.1.0",
+    "file-type": "^16.5.4",
+    "megajs": "^1.1.0",
+    "@hapi/boom": "^10.0.1",
+    "lodash": "^4.17.21",
+    "lowdb": "^2.1.0",
+    "yargs": "^17.7.2",
+    "node-fetch": "^2.6.11",
+    "node-webpmux": "^3.1.1",
+    "node-os-utils": "^1.3.7",
+    "path": "^0.12.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "os": "^0.1.1",
+    "utils": "^0.3.1",
+    "readline": "^1.3.0",
+    "similarity": "^1.2.1", 
+    "wa-sticker-formatter": "^4.4.4",
+      "querystring": "^0.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19" 
+  }
+}
